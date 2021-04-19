@@ -1,0 +1,87 @@
+23:03:2021: Lista, pilha e fila estruturadas. Introdução à Orientação a objetos e processos com UML. Lista, pilha e fila orientadas a objetos.
+Foi apresentado um exemplo de uma resenha "nota 10" e os motivos de propor a realização da mesma, a partir da leitura do livro;
+
+
+
+o professor escreveu um código estruturado de lista:
+
+
+
+// Example program
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef int Value;
+
+typedef struct Node{
+  Value value;
+  struct Node *next;
+
+} Node;
+
+void addToList(Node **list, Value value){
+
+    Node *node = (Node*) malloc(sizeof(Node));
+    node->value = value;
+
+    if(*list == NULL){
+
+        node->next = NULL;
+
+    }else{
+
+        node->next = *list;
+
+    }
+
+    *list = node;    
+
+}
+
+
+
+int sizeOfList(Node **list){
+   Node *node = *list;
+   int count = 0;
+
+   while(node != NULL){
+
+        count++;
+
+        node = node->next;
+   }
+
+   return count;   
+}
+
+void removeIndexFromList(Node **list, int index){
+
+}
+
+Node *list = NULL;
+
+int main()
+{
+    addToList(&list, 4);
+
+    printf("List[%p].size = %d", list, sizeOfList(&list));
+}
+
+
+Após isso, apresentou os slides para nos introduzir à orientação a objetos:
+Vimos como é o processo de desenvolvimento de um software;
+O professor apresentou a história da programação orientada a objeto (POO) e as linguagens que contém/suportam a OO;
+
+UML:
+Foi exposta sua função e seus principais autores;
+O professor mostrou as ferramentas de apoio e diagramas da UML que veremos posteriormente;
+
+OO:
+Vimos alguns conceitos básicos e como se diferenciam do modo estruturado de pensar;
+Além de algumas denominações do OO - classe, objeto, atributos e métodos - e como elas se relacionam;
+Ademais, o professor exibiu a definição de abstração e encapsulamento;
+Após todas informações demonstradas durante a aula, foram indicadas as vantagens da orientação a objeto;
+
+PARA CASA:
+Transformar o código acima em OO (c++)

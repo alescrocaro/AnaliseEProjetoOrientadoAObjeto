@@ -1,0 +1,5 @@
+AlexandreASJ = Alexandre Aparecido Scrocaro Junior
+
+abreviei assim pros arquivos nao ficarem com nome tão grande.
+
+o diagrama do código está sendo atualizado no github, link: https://github.com/Scrocaro/faculdade/blob/main/3%20semestre/APOO/CALCULADORA/diagramaDeClassesCalculadora.pdf

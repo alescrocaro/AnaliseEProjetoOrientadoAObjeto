@@ -1,0 +1,31 @@
+UML Essencial: um breve guia para linguagem padrão,  3a edição. Martin  Fowler.
+
+
+Capítulo 1 Introdução
+
+- O que é UML?
+    Primeiramente, o Martin Fowler procura esclarecer ao leitor as definições e utilizações da UML (familia de notações gráficas) e como a OMG (consórcio aberto de empresas) a controla. Além disso, também informa como o livro se desdobrará;
+
+- Maneiras de usar a UML
+    Aqui, tem-se os modos de utilizações da UML. O escritor discorre acerca de cada modo e suas particularidades, semelhanças, diferenças, ferramentas necessárias e como cada um deve se comportar. Ademais, ele como a UML pode ser vista de maneiras diferentes em relação à sua essencia. Posto isto, opina sobre os fatos expostos;
+
+- Como chegamos à UML
+    Já nesse subtópico, o autor conta a história da UML, de forma resumida; seus pioneiros e o momento que sua reguladora (OMG) decidiu se envolver na disputa pelas padronizações.
+
+- Notações e metamodelos
+    Aqui, o autor mostra como a UML define notações (material gráfico dos modelos) e metamodelos (diagrama), assim como cada um é representado e como isso pode levar-nos à duvidas sobre o que algo significa exatamente, já que há pouco rigor nessas linguagens. Ainda indica que isso pode mudar no futuro;
+
+- Diagramas UML
+    Para discorrer sobre os diagramas existentes, o escritor apresenta uma tabela com todos os oficiais da UML e suas (sub)classificações;
+
+- O que é UML válida?
+    Avançando um pouco no assunto, são apresentadas as definições e normas para classificar uma UML como válida (como regras prescritivas - controladas por um organismo oficial- e descritivas - dadas conforme usuários se portam na prática), entretanto o autor apresenta alguns problemas e torna-se evidente que não é uma tarefa simples fazer tal classificação;
+
+- O significado de UML
+    Nesse (pequeno) tópico, Martin expõe uma das principais dificuldades quanto à utilização da UML provocando convenções locais para resolução;
+
+- UML não é suficiente
+    Indicando como o UML pode ser insuficiente em alguns casos, Fowler aconselha fazer uso de diagramas não-UML para se adequar às suas necessidades.
+
+- Onde começar com a UML
+    Já aqui, ele faz sugestões e orienta leigos que decidem utilizar UML.
